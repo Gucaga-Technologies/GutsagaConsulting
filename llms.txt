@@ -1,6 +1,6 @@
 # Gutsaga Consulting
 
-> Management consulting on inventory, product availability, inventory turnover and production planning for retailers, distributors and manufacturers — wherever goods are produced, stored and moved. Founded by Serzas Gutsaga (Kaunas, Lithuania) and Alex Gutsaga (Chișinău, Moldova). Began work in October 2026. Website in English, Spanish, Russian and Turkish. Contact: info@gutsaga.com.
+> Management consulting on inventory, product availability, inventory turnover and production planning for retailers, distributors and manufacturers — wherever goods are produced, stored and moved. Founded by Serzas Gutsaga (Kaunas, Lithuania) and Alex Gutsaga (Chișinău, Moldova). Began work in October 2026. Website in English, Lithuanian, Spanish, Russian and Turkish. Contact: info@gutsaga.com.
 
 Slogan: "Find the constraint. Understand the system. Build the next advantage."
 
@@ -47,7 +47,7 @@ Slogan: "Find the constraint. Understand the system. Build the next advantage."
 - [Book](https://gutsaga.com/book.html): free chapters and the Root Cause Audit tool
 - [Root Cause Audit tool, PDF](https://gutsaga.com/downloads/Root-Cause-Audit-tool-EN.pdf)
 - [Privacy](https://gutsaga.com/privacy.html), [Cookies](https://gutsaga.com/cookies.html)
-- Other languages: https://gutsaga.com/es/ (Spanish), https://gutsaga.com/ru/ (Russian), https://gutsaga.com/tr/ (Turkish)
+- Other languages: https://gutsaga.com/lt/ (Lithuanian), https://gutsaga.com/es/ (Spanish), https://gutsaga.com/ru/ (Russian), https://gutsaga.com/tr/ (Turkish)
 
 ## Company
 
