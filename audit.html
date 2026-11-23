@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gutsaga Consulting — Root Cause Audit</title>
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;family=Noto+Serif:ital,wght@0,400;0,600;1,400&amp;family=Roboto+Condensed:wght@700&amp;display=swap">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0}
+img{display:block}
+a{color:#8A5B0C}a:hover{color:#12324A}
+@media (max-width: 640px){section#top>svg{width:100% !important;opacity:0.12 !important}}
+.gc-burger{display:none;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:1px solid #E9E1D0;border-radius:8px;background:#FFFFFF;color:#12324A;cursor:pointer}
+.gc-burger .x{display:none}header.open .gc-burger .b{display:none}header.open .gc-burger .x{display:block}
+@media (max-width: 640px){
+h1{font-size:34px !important;line-height:1.12 !important}
+h2{font-size:27px !important;line-height:1.2 !important}
+h3{font-size:21px !important}
+h1,h2,h3,blockquote{overflow-wrap:break-word}
+img[alt="Serzas Gutsaga"]{object-position:50% 18% !important}
+header nav,header nav+div{display:none !important}
+.gc-chain>div{margin-left:0 !important}
+.gc-ladder>div{margin-top:0 !important}
+.gc-burger{display:flex !important}
+header.open nav{display:flex !important;flex-direction:column;align-items:stretch !important;text-align:left;width:100%;gap:0 !important;font-size:17px !important}
+header.open nav a{padding:13px 0;border-bottom:1px solid #FAF6EE}
+header.open nav+div{display:flex !important;width:100%;justify-content:space-between;padding:10px 0 4px}
+section>div{padding:64px 20px !important}
+header>div{padding:14px 20px !important}
+header nav{gap:6px 16px !important;font-size:14px !important}
+[style*="font-size: 112px"]{font-size:76px !important}
+blockquote{font-size:21px !important}
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://gutsaga.com/#org","name":"Gutsaga Consulting","legalName":"Gutsaga consulting, UAB","url":"https://gutsaga.com/","logo":"https://gutsaga.com/images/gutsaga-consulting-logo.svg","image":"https://gutsaga.com/images/gutsaga-consulting-logo.svg","email":"info@gutsaga.com","vatID":"LT100011546114","identifier":{"@type":"PropertyValue","propertyID":"Lithuanian company code","value":"304787794"},"foundingDate":"2026-10","address":{"@type":"PostalAddress","streetAddress":"K. Petrausko g. 26-214","addressLocality":"Kaunas","postalCode":"LT-44156","addressCountry":"LT"},"slogan":"Find the constraint. Understand the system. Build the next advantage.","description":"Management consulting on inventory, flow and production planning for retailers, distributors and manufacturers — wherever goods are produced, stored and moved. Gutsaga Consulting measures real product availability and lost margin, finds the root causes of stockouts and overstock, and agrees a change plan with the client's team. Clients choose between two advantages: availability better than competitors (up to 99.5% in selected founders' projects), or market-level availability with less capital in inventory to free working capital for growth.","founder":[{"@id":"https://gutsaga.com/#serzas"},{"@id":"https://gutsaga.com/#alex"}],"areaServed":["Lithuania","Moldova","Romania","Turkey","Europe","Middle East","Central Asia"],"knowsLanguage":["en","es","ru","tr","lt","ro"],"knowsAbout":["inventory management","product availability","stockouts","overstock","inventory turnover","working capital","supply chain","production planning","Theory of Constraints","root cause analysis","pharmaceutical market","retail","distribution","FMCG"],"makesOffer":[{"@type":"Offer","price":"0","priceCurrency":"EUR","itemOffered":{"@type":"Service","name":"Team session: Where is your company now?","description":"Free 2-hour session with the management team, any industry."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Root Cause Audit","url":"https://gutsaga.com/audit.html","description":"For owners and top management. Data upload, preparation, then 3 days on site. Result: complete list of root causes of stock-outs and excess stock with frequency, lost revenue and excess stock in money, realistic potential, work plan. Price on request: the main part only if the realistic potential found is at least EUR 40,000 a year."}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Inventory management training","description":"Public trainings every spring and autumn, and in-company training on the client's own cases."}}],"contactPoint":{"@type":"ContactPoint","email":"info@gutsaga.com","contactType":"sales","availableLanguage":["English","Spanish","Russian","Turkish"]}},{"@type":"Person","@id":"https://gutsaga.com/#serzas","name":"Serzas Gutsaga","jobTitle":"Founder, Expert","worksFor":{"@id":"https://gutsaga.com/#org"},"email":"serzas@gutsaga.com","image":"https://gutsaga.com/images/serzas.jpg","homeLocation":"Kaunas, Lithuania","knowsLanguage":["en","lt","ru"],"description":"Entrepreneur, consultant and developer of management technologies. More than 20 years with systems for managing inventory, flow and operational decisions for manufacturers, distributors and retail chains; since 2012 focused on the pharmaceutical market. Projects cover 10,000+ pharmacies and 28 manufacturing facilities. Author of 'Evolution of the Pharmaceutical Market'."},{"@type":"Person","@id":"https://gutsaga.com/#alex","name":"Alex Gutsaga","jobTitle":"Founder, Expert","worksFor":{"@id":"https://gutsaga.com/#org"},"email":"alex@gutsaga.com","image":"https://gutsaga.com/images/alex.jpg","homeLocation":"Chișinău, Moldova","knowsLanguage":["ro","en","ru"],"description":"Entrepreneur, enterprise transformation consultant and technology strategist with over 20 years of experience across the supply chain: raw materials, capacity-constrained production scheduling, distribution, inventory management and retail. Industries: beverages, fresh food, FMCG, DIY retail, automotive parts, carpet manufacturing."},{"@type":"Book","@id":"https://gutsaga.com/#book","name":"Evolution of the Pharmaceutical Market","alternateName":"Эволюция фармацевтического рынка","about":"How functions, technologies and data change competitive power between pharmacy chains, distributors and manufacturers.","author":{"@id":"https://gutsaga.com/#serzas"},"url":"https://gutsaga.com/book.html","bookEdition":"2nd edition, revised and expanded","datePublished":"2026","image":"https://gutsaga.com/images/book/cover-en.jpg","workExample":[{"@type":"Book","inLanguage":"en","isbn":"978-609-96676-1-4","bookFormat":"https://schema.org/Paperback"},{"@type":"Book","inLanguage":"ru","isbn":"978-609-96676-0-7","bookFormat":"https://schema.org/Paperback"}]},{"@type":"Organization","@id":"https://gutsaga.tech/#org","name":"Gutsaga Technologies","url":"https://gutsaga.tech","description":"Technology partner of Gutsaga Consulting: technologies for inventory, flow and daily operational decisions, including the Horizon platform."},{"@type":"WebSite","@id":"https://gutsaga.com/#website","url":"https://gutsaga.com/","name":"Gutsaga Consulting","inLanguage":["en","es","ru","tr"],"publisher":{"@id":"https://gutsaga.com/#org"}}]}</script>
+<link rel="alternate" hreflang="en" href="https://gutsaga.com/audit.html">
+<link rel="alternate" hreflang="es" href="https://gutsaga.com/es/audit.html">
+<link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/audit.html">
+<link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/audit.html">
+<link rel="alternate" hreflang="x-default" href="https://gutsaga.com/audit.html">
+<script>
+(function(){try{
+var K="gc_lang";
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[lang]");if(a){try{localStorage.setItem(K,a.getAttribute("lang"))}catch(x){}}});
+if(localStorage.getItem(K))return;
+var L=navigator.languages||[navigator.language||""];
+for(var i=0;i<L.length;i++){var c=(L[i]||"").slice(0,2).toLowerCase();
+if(c==="en")return;
+if(c==="ru"||c==="es"||c==="tr"){location.replace(c+"/"+(location.pathname.split("/").pop()||"index.html")+location.hash);return;}}
+}catch(e){}})();
+</script>
+</head>
+<body>
+<div style="font-family: 'Noto Serif', Georgia, serif; color: #26333B; background: #FFFFFF; min-width: 0">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #E9E1D0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="index.html" aria-label="Gutsaga Consulting" style="display: flex; flex-direction: column; gap: 2px; font-family: 'Roboto Condensed', 'Noto Sans', sans-serif; font-weight: 700; color: #12324A; text-decoration: none"><img src="images/gutsaga-consulting-logo.svg" alt="Gutsaga Consulting" width="150" height="34" style="width: 150px; height: auto"></a>
+<button type="button" class="gc-burger" aria-label="Menu" aria-expanded="false" onclick="var h=this.closest('header');h.classList.toggle('open');this.setAttribute('aria-expanded',h.classList.contains('open'))"><svg class="b" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg><svg class="x" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-family: 'Noto Sans', sans-serif; font-size: 15px">
+<a href="index.html#services" aria-current="page" style="color: #12324A; font-weight: 700; text-decoration: none; border-bottom: 2px solid #8A5B0C">Services</a>
+<a href="index.html#approach" style="color: #26333B; text-decoration: none">Approach</a>
+<a href="index.html#training" style="color: #26333B; text-decoration: none">Training</a>
+<a href="index.html#book" style="color: #26333B; text-decoration: none">Book</a>
+<a href="network.html" style="color: #26333B; text-decoration: none">Network</a>
+<a href="index.html#about" style="color: #26333B; text-decoration: none">About</a>
+</nav>
+<div style="display: flex; align-items: center; gap: 16px; font-family: 'Noto Sans', sans-serif; font-size: 14px">
+<span style="color: #52616B; letter-spacing: 0.04em"><strong aria-current="true" style="color: #12324A">EN</strong> · <a href="es/audit.html" lang="es" style="color: #52616B; text-decoration: none">ES</a> · <a href="ru/audit.html" lang="ru" style="color: #52616B; text-decoration: none">RU</a> · <a href="tr/audit.html" lang="tr" style="color: #52616B; text-decoration: none">TR</a></span>
+<a href="index.html#contact" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; background: #D3921F; color: #12324A; text-decoration: none; border-radius: 6px; font-weight: 700">Invite us</a>
+</div>
+</div>
+</header>
+<script>document.querySelectorAll('header nav a').forEach(function(a){a.addEventListener('click',function(){var h=a.closest('header');h.classList.remove('open');h.querySelector('.gc-burger').setAttribute('aria-expanded','false')})})</script>
+
+<section id="top" style="background: #12324A; color: #FFFFFF; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 720 560" preserveAspectRatio="xMaxYMid slice" style="position: absolute; right: 0; top: 0; width: 44%; height: 100%; opacity: 0.30; pointer-events: none"><g stroke="#D3921F" stroke-width="1" fill="none"><line x1="371" y1="174" x2="421" y2="119"/><line x1="371" y1="174" x2="414" y2="79"/><line x1="444" y1="69" x2="414" y2="79"/><line x1="444" y1="69" x2="421" y2="119"/><line x1="114" y1="116" x2="100" y2="146"/><line x1="114" y1="116" x2="78" y2="108"/><line x1="414" y1="79" x2="444" y2="69"/><line x1="414" y1="79" x2="421" y2="119"/><line x1="559" y1="239" x2="613" y2="205"/><line x1="559" y1="239" x2="673" y2="230"/><line x1="78" y1="108" x2="114" y2="116"/><line x1="78" y1="108" x2="100" y2="146"/><line x1="484" y1="448" x2="548" y2="457"/><line x1="484" y1="448" x2="361" y2="496"/><line x1="111" y1="266" x2="90" y2="246"/><line x1="111" y1="266" x2="145" y2="212"/><line x1="132" y1="454" x2="111" y2="266"/><line x1="132" y1="454" x2="336" y2="449"/><line x1="100" y1="146" x2="87" y2="156"/><line x1="100" y1="146" x2="114" y2="116"/><line x1="268" y1="83" x2="187" y2="140"/><line x1="268" y1="83" x2="371" y2="174"/><line x1="630" y1="426" x2="639" y2="484"/><line x1="630" y1="426" x2="548" y2="457"/><line x1="90" y1="246" x2="111" y2="266"/><line x1="90" y1="246" x2="145" y2="212"/><line x1="87" y1="156" x2="100" y2="146"/><line x1="87" y1="156" x2="114" y2="116"/><line x1="336" y1="449" x2="361" y2="496"/><line x1="336" y1="449" x2="484" y2="448"/><line x1="187" y1="140" x2="114" y2="116"/><line x1="187" y1="140" x2="145" y2="212"/><line x1="624" y1="335" x2="630" y2="426"/><line x1="624" y1="335" x2="673" y2="230"/><line x1="613" y1="205" x2="559" y2="239"/><line x1="613" y1="205" x2="673" y2="230"/><line x1="145" y1="212" x2="111" y2="266"/><line x1="145" y1="212" x2="90" y2="246"/><line x1="421" y1="119" x2="414" y2="79"/><line x1="421" y1="119" x2="444" y2="69"/><line x1="600" y1="84" x2="617" y2="81"/><line x1="600" y1="84" x2="613" y2="205"/><line x1="617" y1="81" x2="600" y2="84"/><line x1="617" y1="81" x2="613" y2="205"/><line x1="673" y1="230" x2="613" y2="205"/><line x1="673" y1="230" x2="559" y2="239"/><line x1="548" y1="457" x2="484" y2="448"/><line x1="548" y1="457" x2="630" y2="426"/><line x1="361" y1="496" x2="336" y2="449"/><line x1="361" y1="496" x2="484" y2="448"/><line x1="639" y1="484" x2="630" y2="426"/><line x1="639" y1="484" x2="548" y2="457"/></g><g fill="#E7B45A"><circle cx="371" cy="174" r="2.5"/><circle cx="444" cy="69" r="2.5"/><circle cx="114" cy="116" r="2"/><circle cx="414" cy="79" r="2"/><circle cx="559" cy="239" r="3.5"/><circle cx="78" cy="108" r="2"/><circle cx="484" cy="448" r="2"/><circle cx="111" cy="266" r="3.5"/><circle cx="132" cy="454" r="2.5"/><circle cx="100" cy="146" r="3.5"/><circle cx="268" cy="83" r="2.5"/><circle cx="630" cy="426" r="2.5"/><circle cx="90" cy="246" r="3.5"/><circle cx="87" cy="156" r="2.5"/><circle cx="336" cy="449" r="2.5"/><circle cx="187" cy="140" r="3.5"/><circle cx="624" cy="335" r="2"/><circle cx="613" cy="205" r="2"/><circle cx="145" cy="212" r="3.5"/><circle cx="421" cy="119" r="2.5"/><circle cx="600" cy="84" r="2"/><circle cx="617" cy="81" r="2.5"/><circle cx="673" cy="230" r="2"/><circle cx="548" cy="457" r="2.5"/><circle cx="361" cy="496" r="2.5"/><circle cx="639" cy="484" r="2"/></g></svg>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 104px 32px 96px; display: flex; flex-direction: column; gap: 28px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #E7B45A">Root Cause Audit</p>
+<h1 style="margin: 0; max-width: 980px; font-family: 'Noto Sans', sans-serif; font-size: 52px; line-height: 1.1; font-weight: 700">Why your company loses sales and holds excess stock — what it costs, and what to fix first</h1>
+<p style="margin: 0; max-width: 760px; font-size: 21px; line-height: 1.55; color: #DCE6EC">For owners and top management of retail chains, distributors and manufacturers.</p>
+<div><a href="mailto:serzas@gutsaga.com?subject=Root%20Cause%20Audit" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; text-decoration: none; border-radius: 6px; font-size: 17px; font-weight: 700; font-family: 'Noto Sans', sans-serif; background: #D3921F; color: #12324A">Discuss an audit</a></div>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">What you get</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">By the end of the audit — from your data, with your team</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FAF6EE"><span style="font-family: 'Noto Sans', sans-serif; font-size: 30px; font-weight: 700; color: #B8801A">1</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Complete list of root causes</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Root causes of stock-outs and excess stock — and how often each occurs.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FAF6EE"><span style="font-family: 'Noto Sans', sans-serif; font-size: 30px; font-weight: 700; color: #B8801A">2</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Lost revenue and excess stock</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">How much you lose on stock-outs and hold in surplus, in money.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FAF6EE"><span style="font-family: 'Noto Sans', sans-serif; font-size: 30px; font-weight: 700; color: #B8801A">3</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Realistic potential</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">How far availability and inventory can really improve in your company.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FAF6EE"><span style="font-family: 'Noto Sans', sans-serif; font-size: 30px; font-weight: 700; color: #B8801A">4</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Work plan</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Solutions, owners and deadlines — starting with the most frequent causes.</p></div>
+</div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">You will know why you lose, how much — and what to do first.</p>
+<p style="margin: 0; font-size: 17px; font-style: italic; color: #52616B">The next step is your decision: implement on your own, with us, or not at all.</p>
+</div>
+</section>
+
+<section style="background: #FAF6EE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">Six questions, six answers</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Causes first — then money.</h2>
+</div>
+<div style="display: flex; flex-direction: column">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px 0; border-top: 1px solid #E9E1D0"><p style="flex: 1 1 320px; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 600; color: #12324A">Why do we have stock-outs and lost sales?</p><p style="flex: 1 1 320px; margin: 0; font-size: 17px; line-height: 1.5">→ <span>Root causes of zero stock and missed sales</span></p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px 0; border-top: 1px solid #E9E1D0"><p style="flex: 1 1 320px; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 600; color: #12324A">Why do we have excess stock and expiry write-offs?</p><p style="flex: 1 1 320px; margin: 0; font-size: 17px; line-height: 1.5">→ <span>Root causes of overstock and expiry</span></p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px 0; border-top: 1px solid #E9E1D0"><p style="flex: 1 1 320px; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 600; color: #12324A">Are these all the causes?</p><p style="flex: 1 1 320px; margin: 0; font-size: 17px; line-height: 1.5">→ <span>A closed list — and how often each occurs</span></p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px 0; border-top: 1px solid #E9E1D0"><p style="flex: 1 1 320px; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 600; color: #12324A">How much do we lose and over-hold?</p><p style="flex: 1 1 320px; margin: 0; font-size: 17px; line-height: 1.5">→ <span>Total lost revenue and excess stock</span></p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px 0; border-top: 1px solid #E9E1D0"><p style="flex: 1 1 320px; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 600; color: #12324A">Where exactly, and how is it changing?</p><p style="flex: 1 1 320px; margin: 0; font-size: 17px; line-height: 1.5">→ <span>By supplier, manager, store, category — over time</span></p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 18px 0; border-top: 1px solid #E9E1D0"><p style="flex: 1 1 320px; margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 600; color: #12324A">What to do — and how much can we really gain?</p><p style="flex: 1 1 320px; margin: 0; font-size: 17px; line-height: 1.5">→ <span>Work plan and realistic improvement potential</span></p></div>
+</div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">Neither ERP nor BI shows these numbers today — the audit extracts them from your data.</p>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">The money picture</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Built from your sales, stock and delivery data for the last 12–18 months.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; color: #12324A">Lost revenue</h3><p style="margin: 0; font-size: 17px; line-height: 1.55">Sales and margin lost when the product is not there.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; color: #12324A">Excess stock</h3><p style="margin: 0; font-size: 17px; line-height: 1.55">Money frozen in inventory above target — and for how long.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; color: #12324A">Realistic potential</h3><p style="margin: 0; font-size: 17px; line-height: 1.55">How much availability and inventory can improve — a calculation, not a promise.</p></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; color: #12324A">Breakdowns</h3><div style="display: flex; flex-wrap: wrap; gap: 10px"><span style="padding: 8px 14px; border-radius: 999px; background: #FAF6EE; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #12324A">Over time: weeks and months</span><span style="padding: 8px 14px; border-radius: 999px; background: #FAF6EE; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #12324A">By supplier</span><span style="padding: 8px 14px; border-radius: 999px; background: #FAF6EE; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #12324A">By manager</span><span style="padding: 8px 14px; border-radius: 999px; background: #FAF6EE; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #12324A">By store and warehouse</span><span style="padding: 8px 14px; border-radius: 999px; background: #FAF6EE; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #12324A">By category</span><span style="padding: 8px 14px; border-radius: 999px; background: #FAF6EE; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #12324A">Other cuts your data allows</span></div></div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.5; color: #52616B">We do not split money by individual cause — cause frequency shows what to fix first.</p>
+</div>
+</section>
+
+<section style="background: #FAF6EE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">From symptom to root cause</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">We ask “why?” five times — until we reach the process, not the person.</h2>
+</div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.5; color: #52616B">Example</p>
+<div class="gc-chain" style="display: flex; flex-direction: column; gap: 10px; max-width: 860px">
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E9E1D0; margin-left: 0px"><span style="flex: none; min-width: 84px; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #C94D42">Symptom</span><span style="font-size: 17px; line-height: 1.5">Empty shelf — the product has already arrived from the supplier.</span></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E9E1D0; margin-left: 18px"><span style="flex: none; min-width: 84px; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8A5B0C">Why?</span><span style="font-size: 17px; line-height: 1.5">It took three days to reach the sales floor.</span></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E9E1D0; margin-left: 36px"><span style="flex: none; min-width: 84px; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8A5B0C">Why?</span><span style="font-size: 17px; line-height: 1.5">Goods receipt stopped on a discrepancy.</span></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E9E1D0; margin-left: 54px"><span style="flex: none; min-width: 84px; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8A5B0C">Why?</span><span style="font-size: 17px; line-height: 1.5">Supplier documents did not match the product card.</span></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E9E1D0; margin-left: 72px"><span style="flex: none; min-width: 84px; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8A5B0C">Why?</span><span style="font-size: 17px; line-height: 1.5">The product was set up in the system with an error.</span></div>
+<div style="display: flex; gap: 16px; align-items: flex-start; padding: 16px 20px; border-radius: 10px; background: #FFFFFF; border: 1px solid #E9E1D0; margin-left: 90px"><span style="flex: none; min-width: 84px; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #8A5B0C">Why?</span><span style="font-size: 17px; line-height: 1.5">There is no rule to check the product card at setup.</span></div>
+<div style="padding: 18px 20px; border-radius: 10px; background: #12324A; color: #FFFFFF; font-family: 'Noto Sans', sans-serif; font-size: 18px; font-weight: 700; margin-left: 90px">= <span>Root cause: a process, not a person.</span></div>
+</div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">The same method applies to excess stock, expiry and charts that need attention. Remove the root cause — and the symptom does not come back.</p>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">The complete map of causes</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Stock-outs and lost sales, excess stock and expiry, charts that need attention.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><span style="font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #B8801A">1</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; color: #12324A">Five whys</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Every case followed to its root cause.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><span style="font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #B8801A">2</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; color: #12324A">The list is closed</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">There are no other causes — new cases are explained by causes already found.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><span style="font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #B8801A">3</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; color: #12324A">Frequency = probability</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">How likely the next case is to come from this cause.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><span style="font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #B8801A">4</span><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; color: #12324A">Most frequent first</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Fix those, and most of the losses go away.</p></div>
+</div>
+<div style="padding: 28px; border-radius: 12px; background: #FAF6EE; display: flex; flex-direction: column; gap: 12px"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 18px; color: #12324A">Share of cases by cause</h3>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px"><span style="flex: 0 1 300px; min-width: 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #26333B">Product set up incorrectly</span><span style="flex: 1 1 200px; display: flex; align-items: center; gap: 10px"><span style="display: block; height: 14px; width: 78%; max-width: 80%; background: #12324A; border-radius: 3px"></span><span style="font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; color: #12324A">26%</span></span></div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px"><span style="flex: 0 1 300px; min-width: 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #26333B">Slow goods receipt</span><span style="flex: 1 1 200px; display: flex; align-items: center; gap: 10px"><span style="display: block; height: 14px; width: 57%; max-width: 80%; background: #12324A; border-radius: 3px"></span><span style="font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; color: #12324A">19%</span></span></div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px"><span style="flex: 0 1 300px; min-width: 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #26333B">Supplier documents rejected</span><span style="flex: 1 1 200px; display: flex; align-items: center; gap: 10px"><span style="display: block; height: 14px; width: 45%; max-width: 80%; background: #12324A; border-radius: 3px"></span><span style="font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; color: #12324A">15%</span></span></div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px"><span style="flex: 0 1 300px; min-width: 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #26333B">Order placed late</span><span style="flex: 1 1 200px; display: flex; align-items: center; gap: 10px"><span style="display: block; height: 14px; width: 36%; max-width: 80%; background: #12324A; border-radius: 3px"></span><span style="font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; color: #12324A">12%</span></span></div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px"><span style="flex: 0 1 300px; min-width: 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #26333B">Promotion not reflected in the order</span><span style="flex: 1 1 200px; display: flex; align-items: center; gap: 10px"><span style="display: block; height: 14px; width: 27%; max-width: 80%; background: #12324A; border-radius: 3px"></span><span style="font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; color: #12324A">9%</span></span></div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px"><span style="flex: 0 1 300px; min-width: 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; color: #26333B">Other causes</span><span style="flex: 1 1 200px; display: flex; align-items: center; gap: 10px"><span style="display: block; height: 14px; width: 57%; max-width: 80%; background: #8FA7B6; border-radius: 3px"></span><span style="font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; color: #12324A">19%</span></span></div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.5; color: #52616B">Illustrative — the form of the result, figures are not real</p></div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">Not “who is to blame” — but which process creates the losses again and again.</p>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.5; color: #52616B">We do not split money by individual cause — cause frequency shows what to fix first.</p>
+</div>
+</section>
+
+<section style="background: #FAF6EE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">From causes to a work plan</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Built together with your team on the third day.</h2>
+</div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.5; color: #52616B">Example</p>
+<div style="overflow-x: auto; -webkit-overflow-scrolling: touch"><table style="width: 100%; min-width: 720px; border-collapse: collapse; background: #FFFFFF; font-family: 'Noto Sans', sans-serif"><thead><tr><th style="text-align: left; padding: 12px 14px; font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #FFFFFF; background: #12324A">Cause</th><th style="text-align: left; padding: 12px 14px; font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #FFFFFF; background: #12324A">Solution</th><th style="text-align: left; padding: 12px 14px; font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #FFFFFF; background: #12324A">Owner</th><th style="text-align: left; padding: 12px 14px; font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #FFFFFF; background: #12324A">Deadline</th><th style="text-align: left; padding: 12px 14px; font-family: 'Noto Sans', sans-serif; font-size: 14px; color: #FFFFFF; background: #12324A">Check</th></tr></thead><tbody>
+<tr><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Supplier documents rejected</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Check documents before the truck arrives</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Head of logistics</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">2 weeks</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Share of returned documents</td></tr>
+<tr><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Goods receipt took 3 days</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Receipt standard — 1 day</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Warehouse manager</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">1 month</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Days from delivery to sale</td></tr>
+<tr><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Product set up incorrectly</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Product card check at setup</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Master data</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">2 weeks</td><td style="padding: 12px 14px; border-bottom: 1px solid #E9E1D0; font-size: 15px; line-height: 1.45; vertical-align: top">Errors in product cards</td></tr>
+</tbody></table></div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">It is your plan, not a consultant’s report: your team built it — your team carries it out.</p>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">Conditions of success</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Root cause = data + people</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #26333B">Data shows where it hurts; people explain why.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 14px"><div style="flex: 1 1 200px; min-width: 0; padding: 22px; border-radius: 12px; background: #FAF6EE; color: #12324A; text-align: center"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; font-weight: 700">Data</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; opacity: 0.85">stock-outs, surplus, charts</p></div><span style="align-self: center; font-family: 'Noto Sans', sans-serif; font-size: 32px; font-weight: 700; color: #D3921F">+</span><div style="flex: 1 1 200px; min-width: 0; padding: 22px; border-radius: 12px; background: #FAF6EE; color: #12324A; text-align: center"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; font-weight: 700">People</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; opacity: 0.85">warehouse, purchasing, logistics, stores</p></div><span style="align-self: center; font-family: 'Noto Sans', sans-serif; font-size: 32px; font-weight: 700; color: #D3921F">=</span><div style="flex: 1 1 200px; min-width: 0; padding: 22px; border-radius: 12px; background: #12324A; color: #FFFFFF; text-align: center"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; font-weight: 700">Root cause</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; opacity: 0.85">cause-and-effect chain</p></div></div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px"><div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Internal owner — from you</h3><ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 16px; line-height: 1.5"><li>appointed by the owner or top management for the audit</li><li>full authority to ask anyone and get a complete answer</li><li>without that authority people simply send him away — and the root cause is never reached</li></ul></div><div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #E9E1D0"><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">External expert — from us</h3><ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 16px; line-height: 1.5"><li>a fresh view: an internal team gets used to its own problems</li><li>asks “why?” to the end, regardless of rank</li><li>has seen the same causes in many companies</li></ul></div></div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">The internal owner opens the doors — the external expert gets to the root.</p>
+</div>
+</section>
+
+<section id="how" style="background: #FAF6EE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">How it works</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Preparation is on us — three days of work are at your company.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FFFFFF; border: 1px solid #E9E1D0"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8A5B0C"><span>Step</span> 1 · <span>Client</span></p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Data upload</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Sales, stock and deliveries for 12–18 months.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FFFFFF; border: 1px solid #E9E1D0"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8A5B0C"><span>Step</span> 2 · <span>Gutsaga Consulting</span></p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Preparation</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">We check the data, calculate the money and select cases.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FFFFFF; border: 1px solid #E9E1D0"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8A5B0C"><span>Step</span> 3 · <span>Together</span></p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">3 days on site</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Cases worked through with your people: five whys, map of root causes.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; background: #FFFFFF; border: 1px solid #E9E1D0"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #8A5B0C"><span>Step</span> 4 · <span>Together</span></p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px; color: #12324A">Solutions and plan</h3><p style="margin: 0; font-size: 16px; line-height: 1.55">Solutions, owners, deadlines and checks.</p></div>
+</div>
+<div style="padding: 24px 28px; border-radius: 12px; background: #FFFFFF; border-left: 4px solid #D3921F"><p style="margin: 0 0 6px; font-family: 'Noto Sans', sans-serif; font-size: 16px; font-weight: 700; color: #12324A">What we need from you</p><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 16px; line-height: 1.6">Data upload · an internal owner with full authority · access to people (warehouse, purchasing, logistics, stores) · 3 working days</p></div>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">Your team is busy for three days only — we do the rest.</p>
+</div>
+</section>
+
+<section style="background: #12324A; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #E7B45A">After the audit</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #FFFFFF">Every audit, one step higher</h2>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #DCE6EC">Causes removed — about six months later, the next audit at a new level.</p>
+</div>
+<div class="gc-ladder" style="display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-start"><div style="flex: 1 1 160px; min-width: 0; padding: 20px; border-radius: 12px; background: #FFFFFF; color: #12324A; margin-top: 56px"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; font-weight: 700">Audit 1</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.45">root causes and work plan</p></div><div style="flex: 1 1 160px; min-width: 0; padding: 20px; border-radius: 12px; border: 1px dashed #8FA7B6; color: #DCE6EC; margin-top: 42px"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 16px; font-weight: 700">≈ 6 months</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.45">fixing causes by the plan, checked by numbers</p></div><div style="flex: 1 1 160px; min-width: 0; padding: 20px; border-radius: 12px; background: #FFFFFF; color: #12324A; margin-top: 28px"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; font-weight: 700">Audit 2</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.45">a new level: the next layer of causes</p></div><div style="flex: 1 1 160px; min-width: 0; padding: 20px; border-radius: 12px; border: 1px dashed #8FA7B6; color: #DCE6EC; margin-top: 14px"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 16px; font-weight: 700">≈ 6 months</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.45">fix and anchor in processes</p></div><div style="flex: 1 1 160px; min-width: 0; padding: 20px; border-radius: 12px; background: #FFFFFF; color: #12324A; margin-top: 0px"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 20px; font-weight: 700">Audit 3</p><p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; line-height: 1.45">one more step up</p></div></div>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 17px; line-height: 1.5; color: #DCE6EC"><li>Availability up, inventory and write-offs down — with every step.</li><li>The next audit comes when the plan is done and the causes are removed — not every month.</li><li>Between audits, the closed list of causes is your checklist for new cases.</li></ul>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #E7B45A">Continuous improvement: every audit takes the company one step higher.</p>
+</div>
+</section>
+
+<section style="background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">Who runs it</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">The Gutsaga Consulting team</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+<img src="images/serzas.jpg" alt="Serzas Gutsaga" width="220" height="280" style="flex: none; width: 220px; height: 280px; object-fit: cover; object-position: 50% 25%; border-radius: 12px">
+<div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<p style="margin: 0; font-size: 18px; line-height: 1.65">Led by Serzas Gutsaga, CEO of Gutsaga Consulting and author of “Evolution of the Pharmaceutical Market”. 20+ years of practice, 10,000+ pharmacies in projects, the root-cause method from the book.</p>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 600; line-height: 1.5; color: #12324A">The audit is independent of the tool: we show the root causes even if the solution is not ours.</p>
+</div>
+</div>
+<div style="padding: 32px; border-radius: 12px; background: #F6E8BD; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">From practice</p>
+<blockquote style="margin: 0; font-size: 22px; line-height: 1.5; font-style: italic; color: #12324A">“You won’t find anything here,” said one of the most modern pharmacy chains we worked with. The audit found a long list of root causes the team had not seen — and the client was very satisfied.</blockquote>
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 16px; line-height: 1.55; color: #26333B">We have run root-cause audits for pharmacy chains and retailers in several countries. The audit shows the work of every level — so it is ordered only by the owner or top management.</p>
+<p style="margin: 8px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 15px; font-weight: 700; color: #12324A">Root-cause audits have also been run for:</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px"><span style="padding: 8px 16px; border-radius: 999px; background: #FFFFFF; font-family: 'Noto Sans', sans-serif; font-size: 15px; font-weight: 600; color: #12324A">Tobis · Lithuania</span><span style="padding: 8px 16px; border-radius: 999px; background: #FFFFFF; font-family: 'Noto Sans', sans-serif; font-size: 15px; font-weight: 600; color: #12324A">Camelia · Lithuania</span><span style="padding: 8px 16px; border-radius: 999px; background: #FFFFFF; font-family: 'Noto Sans', sans-serif; font-size: 15px; font-weight: 600; color: #12324A">Felicia</span><span style="padding: 8px 16px; border-radius: 999px; background: #FFFFFF; font-family: 'Noto Sans', sans-serif; font-size: 15px; font-weight: 600; color: #12324A">Elodi</span></div>
+</div>
+</div>
+</section>
+
+<section id="price" style="background: #FAF6EE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #8A5B0C">Pricing and guarantee</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #12324A">Pay for the effect found, not for time.</h2>
+</div>
+<div style="padding: 36px; border-radius: 14px; background: #12324A; color: #FFFFFF; display: flex; flex-direction: column; gap: 16px; max-width: 860px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 30px; font-weight: 700">Price on request</p>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; font-family: 'Noto Sans', sans-serif; font-size: 17px; line-height: 1.55; color: #DCE6EC"><li>A small advance at the start, when the data is uploaded.</li><li>The main part only if the audit finds a realistic potential of at least €40,000 a year for the whole company — otherwise you don’t pay it.</li><li>Start a Horizon trial with Gutsaga Technologies within 60 days — part of the audit cost is credited to it.</li><li>Travel and accommodation for two specialists are paid by the client.</li></ul>
+<p style="margin: 6px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 19px; font-weight: 700; color: #E7B45A">No potential of €40,000 a year found — you don’t pay the main part.</p>
+<div><a href="mailto:serzas@gutsaga.com?subject=Root%20Cause%20Audit" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; text-decoration: none; border-radius: 6px; font-size: 17px; font-weight: 700; font-family: 'Noto Sans', sans-serif; background: #D3921F; color: #12324A">Request the price</a></div>
+</div>
+</div>
+</section>
+
+<section id="next" style="background: #12324A; color: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="max-width: 860px; display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #E7B45A">Next step</p>
+<h2 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 40px; line-height: 1.15; color: #FFFFFF">Three steps to your map of root causes.</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #2E4E66"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #E7B45A">1</p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px">Agreement</h3><p style="margin: 0; font-size: 16px; line-height: 1.55; color: #DCE6EC">Dates and participants on your side.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #2E4E66"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #E7B45A">2</p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px">Data upload</h3><p style="margin: 0; font-size: 16px; line-height: 1.55; color: #DCE6EC">Sales, stock and deliveries for 12–18 months.</p></div>
+<div style="box-sizing: border-box; flex: 1 1 240px; min-width: 0; padding: 28px; border-radius: 12px; display: flex; flex-direction: column; gap: 10px; border: 1px solid #2E4E66"><p style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 28px; font-weight: 700; color: #E7B45A">3</p><h3 style="margin: 0; font-family: 'Noto Sans', sans-serif; font-size: 21px">3 days on site</h3><p style="margin: 0; font-size: 16px; line-height: 1.55; color: #DCE6EC">Map of root causes and work plan.</p></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px"><a href="mailto:serzas@gutsaga.com?subject=Root%20Cause%20Audit" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; text-decoration: none; border-radius: 6px; font-size: 17px; font-weight: 700; font-family: 'Noto Sans', sans-serif; background: #D3921F; color: #12324A">Discuss an audit</a><span style="font-family: 'Noto Sans', sans-serif; font-size: 16px; color: #B9CAD5"><span>Serzas Gutsaga, CEO of Gutsaga Consulting</span> · <a href="mailto:serzas@gutsaga.com?subject=Root%20Cause%20Audit" style="color: #E7B45A">serzas@gutsaga.com</a></span></div>
+</div>
+</section>
+
+<footer style="background: #0C2436; color: #B9CAD5; font-family: 'Noto Sans', sans-serif; font-size: 14px">
+<div style="max-width: 1200px; margin: 0 auto; padding: 40px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px">
+<div style="display: flex; flex-direction: column; gap: 8px">
+<img src="images/gutsaga-consulting-logo-white.svg" alt="Gutsaga Consulting" width="130" height="30" style="width: 130px; height: auto">
+<span>Gutsaga Consulting · Kaunas, Lithuania / Chișinău, Moldova</span>
+<span style="font-size: 12px; color: #8FA7B6">Gutsaga consulting, UAB · Company code 304787794 · VAT LT100011546114 · K. Petrausko g. 26-214, Kaunas, LT-44156, Lithuania</span>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center">
+<a href="https://gutsaga.tech" style="color: #B9CAD5">Gutsaga Technologies</a>
+<a href="privacy.html" style="color: #B9CAD5">Privacy</a>
+<a href="cookies.html" style="color: #B9CAD5">Cookies</a>
+<span>© 2026 Gutsaga Consulting</span>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>

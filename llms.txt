@@ -20,7 +20,7 @@ Slogan: "Find the constraint. Understand the system. Build the next advantage."
 ## Services
 
 - Team session "Where is your company now?" — free, 2 hours, any industry.
-- Root Cause Audit — client data first (12–18 months of sales, stock and deliveries), then about 3 days with 2–3 key people. Output: real availability and lost margin in money, map of causes, change programme, effect of moving to 98–99.5% availability. Price on request; small advance, the rest only if the audit finds an effect at least ten times its cost.
+- Root Cause Audit (https://gutsaga.com/audit.html) — for owners and top management of retail chains, distributors and manufacturers. Steps: data upload (12–18 months of sales, stock, deliveries) → preparation by Gutsaga Consulting → 3 days on site with the client's people ("five whys", map of root causes) → solutions and work plan. Results: complete closed list of root causes of stock-outs and excess stock with the frequency of each; total lost revenue and excess stock in money with breakdowns (time, supplier, manager, store, category); realistic improvement potential; work plan with owners and deadlines. Money is not split by individual cause. Requires an internal owner with full authority. Repeat audit about every 6 months, each a step higher. Root-cause audits have been run for pharmacy chains and retailers in several countries, including Tobis and Camelia (Lithuania), Felicia and Elodi. Price on request: small advance at start; the main part only if the realistic potential found is at least €40,000 a year for the whole company.
 - Inventory management training — public trainings every spring and autumn, and in-company training on the client's own cases.
 - Book presentations for pharma management teams — free, 2 hours.
 
@@ -42,6 +42,7 @@ Slogan: "Find the constraint. Understand the system. Build the next advantage."
 ## Pages
 
 - [Home](https://gutsaga.com/): services, two advantages, Root Cause Audit, training, book, founders
+- [Root Cause Audit](https://gutsaga.com/audit.html): what you get, five whys, map of causes, work plan, how it works, pricing and guarantee
 - [Team / Network](https://gutsaga.com/network.html): founders, certified partners, how to become a partner
 - [Book](https://gutsaga.com/book.html): free chapters and the Root Cause Audit tool
 - [Root Cause Audit tool, PDF](https://gutsaga.com/downloads/Root-Cause-Audit-tool-EN.pdf)

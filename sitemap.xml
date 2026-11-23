@@ -37,6 +37,42 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/"/>
   </url>
   <url>
+    <loc>https://gutsaga.com/audit.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/audit.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/es/audit.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/audit.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/ru/audit.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/audit.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/tr/audit.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/audit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/audit.html"/>
+  </url>
+  <url>
     <loc>https://gutsaga.com/network.html</loc>
     <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/network.html"/>
