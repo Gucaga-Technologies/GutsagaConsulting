@@ -1,0 +1,53 @@
+# Gutsaga Consulting
+
+> Management consulting on inventory, product availability, inventory turnover and production planning for retailers, distributors and manufacturers — wherever goods are produced, stored and moved. Founded by Serzas Gutsaga (Kaunas, Lithuania) and Alex Gutsaga (Chișinău, Moldova). Began work in October 2026. Website in English, Spanish, Russian and Turkish. Contact: info@gutsaga.com.
+
+Slogan: "Find the constraint. Understand the system. Build the next advantage."
+
+## What Gutsaga Consulting does
+
+- Measures a company's real product availability and the margin lost to stockouts, in money. ERP and POS systems record sales, but not the sales that did not happen.
+- Finds the root causes of stockouts and overstock. Both often come from the same place: how the company makes decisions about goods — its rules, parameters, data and accountability.
+- Agrees with the management team which constraint matters most now, and builds a step-by-step change plan (cause → action → owner → deadline), then checks results and starts the next cycle.
+- Covers production planning as part of the same work: one priority from the shop floor to the shelf.
+- Industries: retail, distribution and wholesale, manufacturing; pharmaceutical market is the most deeply tested direction; also FMCG, food, beverages, DIY retail, automotive parts.
+
+## Two competitive advantages clients can choose
+
+1. Availability better than competitors: customers find the product with you, lost sales return. In selected projects of the founders, 99.5% availability was reached and held (results are project-specific, not a guarantee). In many local markets availability is 85–94%.
+2. Market-level availability with less capital in inventory: free working capital for expansion (new stores, markets, products). Example: in one pharmacy network about 20 locations held around 50 days of stock, the rest about 35 days, at comparable availability.
+
+## Services
+
+- Team session "Where is your company now?" — free, 2 hours, any industry.
+- Root Cause Audit — client data first (12–18 months of sales, stock and deliveries), then about 3 days with 2–3 key people. Output: real availability and lost margin in money, map of causes, change programme, effect of moving to 98–99.5% availability. Price on request; small advance, the rest only if the audit finds an effect at least ten times its cost.
+- Inventory management training — public trainings every spring and autumn, and in-company training on the client's own cases.
+- Book presentations for pharma management teams — free, 2 hours.
+
+## People
+
+- Serzas Gutsaga — Founder, Expert. Kaunas, Lithuania. English, Lithuanian, Russian. 20+ years with inventory, flow and operational decision systems; pharma focus since 2012; projects across 10,000+ pharmacies and 28 manufacturing facilities. Author of "Evolution of the Pharmaceutical Market". serzas@gutsaga.com
+- Alex Gutsaga — Founder, Expert. Chișinău, Moldova. Romanian, English, Russian. 20+ years across the supply chain: raw materials, capacity-constrained production scheduling, distribution, inventory, retail. alex@gutsaga.com
+- Ahmet Sennaroglu — Certified Trainer, Istanbul, Turkey. Turkish, English.
+- Certified partners: trained in the method, work with founders on real clients, then licensed to work under the Gutsaga Consulting name in their markets.
+
+## Book
+
+"Evolution of the Pharmaceutical Market — How Functions, Technologies, and Data Change Competitive Power" by Serzas Gutsaga, 2nd edition, 2026. English (ISBN 978-609-96676-1-4) and Russian (ISBN 978-609-96676-0-7). First chapters and the Root Cause Audit tool are free to read online.
+
+## Partners
+
+- Gutsaga Technologies (https://gutsaga.tech) — technology partner: technologies for inventory, flow and daily operational decisions, including the Horizon platform. The audit is independent of any tool; technology is recommended only where the cause map shows it is needed.
+
+## Pages
+
+- [Home](https://gutsaga.com/): services, two advantages, Root Cause Audit, training, book, founders
+- [Team / Network](https://gutsaga.com/network.html): founders, certified partners, how to become a partner
+- [Book](https://gutsaga.com/book.html): free chapters and the Root Cause Audit tool
+- [Root Cause Audit tool, PDF](https://gutsaga.com/downloads/Root-Cause-Audit-tool-EN.pdf)
+- [Privacy](https://gutsaga.com/privacy.html), [Cookies](https://gutsaga.com/cookies.html)
+- Other languages: https://gutsaga.com/es/ (Spanish), https://gutsaga.com/ru/ (Russian), https://gutsaga.com/tr/ (Turkish)
+
+## Company
+
+Gutsaga consulting, UAB · Company code 304787794 · VAT LT100011546114 · K. Petrausko g. 26-214, Kaunas, LT-44156, Lithuania.
