@@ -45,6 +45,7 @@ Slogan: "Find the constraint. Understand the system. Build the next advantage."
 - [Root Cause Audit](https://gutsaga.com/audit.html): what you get, five whys, map of causes, work plan, how it works, pricing and guarantee
 - [Team / Network](https://gutsaga.com/network.html): founders, certified partners, how to become a partner
 - [Book](https://gutsaga.com/book.html): free chapters and the Root Cause Audit tool
+- [News and events](https://gutsaga.com/news.html): GIRP PharmaSupply 2026 in Brussels (book presentation), founding of Gutsaga Consulting in October 2026
 - [Root Cause Audit tool, PDF](https://gutsaga.com/downloads/Root-Cause-Audit-tool-EN.pdf)
 - [Privacy](https://gutsaga.com/privacy.html), [Cookies](https://gutsaga.com/cookies.html)
 - Other languages: https://gutsaga.com/lt/ (Lithuanian), https://gutsaga.com/ro/ (Romanian), https://gutsaga.com/es/ (Spanish), https://gutsaga.com/ru/ (Russian), https://gutsaga.com/tr/ (Turkish)
