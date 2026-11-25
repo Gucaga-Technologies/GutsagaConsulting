@@ -12,6 +12,13 @@ body{margin:0}
 img{display:block}
 a{color:#8A5B0C}a:hover{color:#12324A}
 @media (max-width: 640px){section#top>svg{width:100% !important;opacity:0.12 !important}}
+.gc-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:100;max-width:760px;margin:0 auto;box-sizing:border-box;background:#FFFFFF;color:#26333B;border:1px solid #E9E1D0;border-radius:12px;box-shadow:0 14px 44px rgba(12,36,54,0.30);padding:18px 20px;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;font-family:'Noto Sans',sans-serif;font-size:15px;line-height:1.5}
+.gc-consent[hidden]{display:none}
+.gc-consent p{margin:0;flex:1 1 320px}
+.gc-consent a{color:#8A5B0C}
+.gc-consent-b{display:flex;gap:10px}
+.gc-consent button{min-height:42px;min-width:110px;padding:0 18px;border-radius:6px;border:1px solid #12324A;background:#FFFFFF;color:#12324A;font:inherit;font-weight:700;cursor:pointer}
+.gc-consent button.p{background:#D3921F;border-color:#D3921F}
 .gc-lang{position:relative}
 .gc-lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;min-height:40px;padding:0 10px;border:1px solid #E9E1D0;border-radius:6px;color:#12324A;font-weight:600;font-size:14px;user-select:none}
 .gc-lang summary::-webkit-details-marker{display:none}
@@ -102,6 +109,8 @@ if(c==="ru"||c==="es"||c==="tr"||c==="lt"||c==="ro"){location.replace(c+"/"+(loc
 <p style="margin: 0; font-size: 17px; line-height: 1.7">We keep correspondence as long as needed to answer you and for up to three years after the last contact, unless the law requires longer, for example for accounting documents.</p>
 <h2 style="margin: 16px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; color: #12324A">Hosting and fonts</h2>
 <p style="margin: 0; font-size: 17px; line-height: 1.7">Our hosting provider processes technical data (IP address, time of the request) in server logs to deliver the website securely. The website loads fonts from Google Fonts, so your browser connects to Google servers and transmits your IP address.</p>
+<h2 style="margin: 16px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; color: #12324A">Website analytics</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.7">With your consent we use Google Analytics 4 (Google Ireland Limited) to understand how the website is used: pages viewed, approximate country, device type and where visitors come from. Google Analytics does not store IP addresses in the EU. Data is kept for 14 months. Legal basis: your consent (Article 6(1)(a) GDPR), which you can withdraw at any time via “Cookie settings”.</p>
 <h2 style="margin: 16px 0 0; font-family: 'Noto Sans', sans-serif; font-size: 22px; color: #12324A">Your rights</h2>
 <p style="margin: 0; font-size: 17px; line-height: 1.7">You may ask for access to your data, its correction or deletion, restriction of processing, data portability, and you may object to processing. Write to info@gutsaga.com. You may also complain to the State Data Protection Inspectorate of Lithuania (vdai.lrv.lt).</p>
 <p style="margin: 0; font-size: 17px; line-height: 1.7">Last updated: November 2026.</p>
@@ -119,6 +128,7 @@ if(c==="ru"||c==="es"||c==="tr"||c==="lt"||c==="ro"){location.replace(c+"/"+(loc
 <a href="https://gutsaga.tech" style="color: #B9CAD5">Gutsaga Technologies</a>
 <a href="privacy.html" style="color: #B9CAD5">Privacy</a>
 <a href="cookies.html" style="color: #B9CAD5">Cookies</a>
+<a href="#" data-cookie-settings style="color: #B9CAD5">Cookie settings</a>
 <a href="eu-projects.html" style="color: #B9CAD5">EU projects</a>
 <span>© 2026 Gutsaga Consulting</span>
 </div>
@@ -126,5 +136,19 @@ if(c==="ru"||c==="es"||c==="tr"||c==="lt"||c==="ro"){location.replace(c+"/"+(loc
 </footer>
 
 </div>
+<div id="gc-consent" class="gc-consent" role="dialog" aria-label="Cookies" hidden>
+<p><span>We use Google Analytics cookies to see which pages are useful — only with your consent.</span> <a href="cookies.html">More about cookies</a></p>
+<div class="gc-consent-b"><button type="button" data-c="denied">Decline</button><button type="button" data-c="granted" class="p">Accept</button></div>
+</div>
+<script>
+(function(){var K="gc_consent",ID="G-E5NNP582Y6",b=document.getElementById("gc-consent");if(!b)return;
+function load(){if(window.__gcga)return;window.__gcga=1;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",ID);var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+ID;document.head.appendChild(s)}
+function clear(){document.cookie.split(";").forEach(function(k){var n=k.split("=")[0].trim();if(n.indexOf("_ga")===0){var d=location.hostname.replace(/^www\./,"");document.cookie=n+"=; Max-Age=0; path=/; domain=."+d;document.cookie=n+"=; Max-Age=0; path=/"}})}
+var v=null;try{v=localStorage.getItem(K)}catch(e){}
+if(v==="granted")load();else if(v!=="denied")b.hidden=false;
+b.addEventListener("click",function(e){var c=e.target.getAttribute&&e.target.getAttribute("data-c");if(!c)return;try{localStorage.setItem(K,c)}catch(x){}b.hidden=true;if(c==="granted")load();else{if(window.gtag)gtag("consent","update",{analytics_storage:"denied"});clear()}});
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;if(a.hasAttribute("data-cookie-settings")){e.preventDefault();b.hidden=false;return}var h=a.getAttribute("href")||"";if(window.gtag&&(h.indexOf("mailto:")===0||h.indexOf("tel:")===0)){gtag("event","generate_lead",{method:h.indexOf("tel:")===0?"phone":"email",link_url:h.split("?")[0]})}});
+})();
+</script>
 </body>
 </html>

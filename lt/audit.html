@@ -12,6 +12,13 @@ body{margin:0}
 img{display:block}
 a{color:#8A5B0C}a:hover{color:#12324A}
 @media (max-width: 640px){section#top>svg{width:100% !important;opacity:0.12 !important}}
+.gc-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:100;max-width:760px;margin:0 auto;box-sizing:border-box;background:#FFFFFF;color:#26333B;border:1px solid #E9E1D0;border-radius:12px;box-shadow:0 14px 44px rgba(12,36,54,0.30);padding:18px 20px;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;font-family:'Noto Sans',sans-serif;font-size:15px;line-height:1.5}
+.gc-consent[hidden]{display:none}
+.gc-consent p{margin:0;flex:1 1 320px}
+.gc-consent a{color:#8A5B0C}
+.gc-consent-b{display:flex;gap:10px}
+.gc-consent button{min-height:42px;min-width:110px;padding:0 18px;border-radius:6px;border:1px solid #12324A;background:#FFFFFF;color:#12324A;font:inherit;font-weight:700;cursor:pointer}
+.gc-consent button.p{background:#D3921F;border-color:#D3921F}
 .gc-lang{position:relative}
 .gc-lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;min-height:40px;padding:0 10px;border:1px solid #E9E1D0;border-radius:6px;color:#12324A;font-weight:600;font-size:14px;user-select:none}
 .gc-lang summary::-webkit-details-marker{display:none}
@@ -324,6 +331,7 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 <a href="https://gutsaga.tech" style="color: #B9CAD5">Gutsaga Technologies</a>
 <a href="privacy.html" style="color: #B9CAD5">Privatumas</a>
 <a href="cookies.html" style="color: #B9CAD5">Slapukai</a>
+<a href="#" data-cookie-settings style="color: #B9CAD5">Slapukų nustatymai</a>
 <a href="eu-projects.html" style="color: #B9CAD5">ES projektai</a>
 <span>© 2026 Gutsaga Consulting</span>
 </div>
@@ -331,5 +339,19 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 </footer>
 
 </div>
+<div id="gc-consent" class="gc-consent" role="dialog" aria-label="Cookies" hidden>
+<p><span>Naudojame „Google Analytics“ slapukus, kad matytume, kurie puslapiai naudingi, — tik su jūsų sutikimu.</span> <a href="cookies.html">Daugiau apie slapukus</a></p>
+<div class="gc-consent-b"><button type="button" data-c="denied">Nesutinku</button><button type="button" data-c="granted" class="p">Sutinku</button></div>
+</div>
+<script>
+(function(){var K="gc_consent",ID="G-E5NNP582Y6",b=document.getElementById("gc-consent");if(!b)return;
+function load(){if(window.__gcga)return;window.__gcga=1;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",ID);var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+ID;document.head.appendChild(s)}
+function clear(){document.cookie.split(";").forEach(function(k){var n=k.split("=")[0].trim();if(n.indexOf("_ga")===0){var d=location.hostname.replace(/^www\./,"");document.cookie=n+"=; Max-Age=0; path=/; domain=."+d;document.cookie=n+"=; Max-Age=0; path=/"}})}
+var v=null;try{v=localStorage.getItem(K)}catch(e){}
+if(v==="granted")load();else if(v!=="denied")b.hidden=false;
+b.addEventListener("click",function(e){var c=e.target.getAttribute&&e.target.getAttribute("data-c");if(!c)return;try{localStorage.setItem(K,c)}catch(x){}b.hidden=true;if(c==="granted")load();else{if(window.gtag)gtag("consent","update",{analytics_storage:"denied"});clear()}});
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a");if(!a)return;if(a.hasAttribute("data-cookie-settings")){e.preventDefault();b.hidden=false;return}var h=a.getAttribute("href")||"";if(window.gtag&&(h.indexOf("mailto:")===0||h.indexOf("tel:")===0)){gtag("event","generate_lead",{method:h.indexOf("tel:")===0?"phone":"email",link_url:h.split("?")[0]})}});
+})();
+</script>
 </body>
 </html>
