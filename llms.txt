@@ -1,6 +1,6 @@
 # Gutsaga Consulting
 
-> Management consulting on inventory, product availability, inventory turnover and production planning for retailers, distributors and manufacturers — wherever goods are produced, stored and moved. Founded by Serzas Gutsaga (Kaunas, Lithuania) and Alex Gutsaga (Chișinău, Moldova). Began work in October 2026. Website in English, Lithuanian, Romanian, Spanish, Russian and Turkish. Contact: info@gutsaga.com.
+> Management consulting on inventory, product availability, inventory turnover and production planning for retailers, distributors and manufacturers — wherever goods are produced, stored and moved. Founded by Serzas Gutsaga (Kaunas, Lithuania) and Alex Gutsaga (Chișinău, Moldova). Began work in October 2026. Website in English, Lithuanian, Romanian, Spanish, Russian and Turkish. Contact: info@gutsaga.com, +370 686 80441.
 
 Slogan: "Find the constraint. Understand the system. Build the next advantage."
 
@@ -51,5 +51,8 @@ Slogan: "Find the constraint. Understand the system. Build the next advantage."
 - Other languages: https://gutsaga.com/lt/ (Lithuanian), https://gutsaga.com/ro/ (Romanian), https://gutsaga.com/es/ (Spanish), https://gutsaga.com/ru/ (Russian), https://gutsaga.com/tr/ (Turkish)
 
 ## Company
+
+Formerly Pharma Management Solutions, UAB (pharmams.com); renamed Gutsaga consulting, UAB, with services expanded from pharmacy chains to all businesses where goods are produced, stored and moved. Partner in the EU-co-funded project "Pharma IT cluster" (European Regional Development Fund, Dec 2023 – Dec 2026): https://gutsaga.com/eu-projects.html
+
 
 Gutsaga consulting, UAB · Company code 304787794 · VAT LT100011546114 · K. Petrausko g. 26-214, Kaunas, LT-44156, Lithuania.

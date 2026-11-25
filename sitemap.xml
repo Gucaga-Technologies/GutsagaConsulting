@@ -331,6 +331,72 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/news.html"/>
   </url>
   <url>
+    <loc>https://gutsaga.com/eu-projects.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://gutsaga.com/lt/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gutsaga.com/ro/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/eu-projects.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/lt/eu-projects.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://gutsaga.com/lt/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gutsaga.com/ro/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/eu-projects.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/ro/eu-projects.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://gutsaga.com/lt/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gutsaga.com/ro/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/eu-projects.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/es/eu-projects.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://gutsaga.com/lt/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gutsaga.com/ro/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/eu-projects.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/ru/eu-projects.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://gutsaga.com/lt/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gutsaga.com/ro/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/eu-projects.html"/>
+  </url>
+  <url>
+    <loc>https://gutsaga.com/tr/eu-projects.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://gutsaga.com/lt/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://gutsaga.com/ro/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://gutsaga.com/es/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gutsaga.com/ru/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://gutsaga.com/tr/eu-projects.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gutsaga.com/eu-projects.html"/>
+  </url>
+  <url>
     <loc>https://gutsaga.com/privacy.html</loc>
     <lastmod>2026-11-23</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://gutsaga.com/privacy.html"/>
